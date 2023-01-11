@@ -3,7 +3,6 @@
 //  AutoLayoutStudy
 //
 //  Created by 김준혁 on 2023/01/10.
-//
 
 import UIKit
 
@@ -92,7 +91,7 @@ class ViewController: UIViewController {
         NSLayoutConstraint.activate([
 //            imageContainView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
 //            imageContainView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            // 이게 있으면 에러가 나네.. 
+            // 이게 있으면 에러가 나네..
             imageContainView.heightAnchor.constraint(equalToConstant: 180)
         ])
         
